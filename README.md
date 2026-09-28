@@ -1,17 +1,21 @@
-# AgentRecall 团队资产
+# MyAgentResource
 
-此仓库由 agentrecall init 初始化。团队资产在 Git 中共同维护，项目选择需要的资产安装到本地。
+供 AgentRecall 团队空间使用的共享资产库。
 
-## 目录
+## 资源
 
-- agentrecall.json：AgentRecall 资产清单。当前支持 Skills 和工作配置。
-- skills/：每个 Skill 使用独立目录和 SKILL.md，并在清单 skills 中登记 id 与 path。
-- rules/、docs/、env/、members/：参考 TeamAI 的目录组织预留，当前不会自动分发或上传成员信息。请勿提交密钥。
+- **11 个 DSH Skills**：代码审查、提交检查、CI 稳定性、性能分析、代码简化、文档、客户端 UI 规范和配套 Agent Notes 维护。
+- **2 份文档**：[DSH 技能使用说明](docs/dsh-resources.md)、[性能验证清单](docs/performance-checklist.md)。
+- **1 份共享指令**：[团队开发约定](rules/team-development.md)。
 
 ## 使用
 
-在 AgentRecall V2 设置中连接团队；进入团队后创建项目并关联本地 Git 目录，再手动同步和选择安装。CLI 也可使用 team enable、project add --team、team sync。初始化不会自动开启团队功能、安装 Hook 或上传 Session。
+在 AgentRecall V2 设置中连接本仓库并启用团队，在团队空间浏览资源。接入工作目录、选择客户端后，点击「同步团队」统一更新。不会自动上传会话或执行 Skill 中的命令。
 
-## 添加 Skill
+DSH 前缀技能保留 DeepSeek Harness 的工程约束，使用前核对当前工作目录与依赖；它们不能替代其他仓库自己的规则。完整范围和依赖见使用说明。
 
-创建 skills/review/SKILL.md，YAML frontmatter 包含 name: review 与非空 description，然后在 agentrecall.json 的 skills 中添加 {"id":"review","path":"skills/review"}。提交并推送后，团队成员可手动同步、预览和安装。
+## 维护
+
+agentrecall.json 是版本 4 资产清单。Skills 放在 skills/，共享指令放在 rules/，普通文档放在 docs/。MCP 与公共 Env 可按清单格式登记；密钥只保存本机变量引用，不提交实际值。
+
+来源与许可：[第三方说明](THIRD_PARTY_NOTICES.md)、[逐文件来源记录](sources/dsh-skills.json)。每个 Skill 内也附有许可和固定版本的上游链接，便于单独分发。

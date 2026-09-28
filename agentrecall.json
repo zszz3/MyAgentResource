@@ -1,5 +1,77 @@
 {
-  "schemaVersion": 2,
-  "skills": [],
-  "workConfigs": []
+  "schemaVersion": 4,
+  "skills": [
+    {
+      "id": "agent-experience",
+      "path": "skills/agent-experience"
+    },
+    {
+      "id": "dsh-archive-agent-notes",
+      "path": "skills/dsh-archive-agent-notes"
+    },
+    {
+      "id": "dsh-ci-test-reliability",
+      "path": "skills/dsh-ci-test-reliability"
+    },
+    {
+      "id": "dsh-client-ui-ux",
+      "path": "skills/dsh-client-ui-ux"
+    },
+    {
+      "id": "dsh-code-review",
+      "path": "skills/dsh-code-review"
+    },
+    {
+      "id": "dsh-doc",
+      "path": "skills/dsh-doc"
+    },
+    {
+      "id": "dsh-find-simplifications",
+      "path": "skills/dsh-find-simplifications"
+    },
+    {
+      "id": "dsh-pre-push-checks",
+      "path": "skills/dsh-pre-push-checks"
+    },
+    {
+      "id": "dsh-prose-standard",
+      "path": "skills/dsh-prose-standard"
+    },
+    {
+      "id": "dsh-speed-up-perf",
+      "path": "skills/dsh-speed-up-perf"
+    },
+    {
+      "id": "dsh-trim-cot-leakage",
+      "path": "skills/dsh-trim-cot-leakage"
+    }
+  ],
+  "workConfigs": [],
+  "documents": [
+    {
+      "id": "dsh-resources",
+      "name": "DSH 技能使用说明",
+      "path": "docs/dsh-resources.md",
+      "target": "docs/team/dsh-resources.md"
+    },
+    {
+      "id": "performance-checklist",
+      "name": "性能验证清单",
+      "path": "docs/performance-checklist.md",
+      "target": "docs/team/performance-checklist.md"
+    }
+  ],
+  "instructions": [
+    {
+      "id": "team-development",
+      "name": "团队开发约定",
+      "path": "rules/team-development.md",
+      "targets": [
+        "codex",
+        "claude"
+      ]
+    }
+  ],
+  "mcpServers": [],
+  "environment": []
 }

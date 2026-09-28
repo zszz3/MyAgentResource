@@ -1,0 +1,213 @@
+{
+  "repository": "https://github.com/deepseek-ai/deepseek-harness",
+  "commit": "477b4f420553e8a52c2fbccc464d7561b239c443",
+  "license": "MIT",
+  "skills": [
+    {
+      "id": "agent-experience",
+      "sourcePath": ".agents/skills/agent-experience",
+      "files": [
+        {
+          "path": "SKILL.md",
+          "gitBlob": "3ad20ad5cb9b64f48de5d304b742a26c93e72c72",
+          "sha256": "2c931c8f6271cb41b232a85654b7deff5b28958c4b22cde54e38cce65fc83ac8"
+        }
+      ]
+    },
+    {
+      "id": "dsh-archive-agent-notes",
+      "sourcePath": ".agents/skills/dsh-archive-agent-notes",
+      "files": [
+        {
+          "path": "SKILL.md",
+          "gitBlob": "6052cbf1fc51460533b0443eab9e282104cce6d9",
+          "sha256": "298e95629ade953ba5e0e4fd4c50e5205389ac6adc5d55dea1ef26617a323f84"
+        }
+      ]
+    },
+    {
+      "id": "dsh-ci-test-reliability",
+      "sourcePath": ".agents/skills/dsh-ci-test-reliability",
+      "files": [
+        {
+          "path": "SKILL.md",
+          "gitBlob": "d9fd0f1700476f8fc9bb6f90f3824ce8a8304de6",
+          "sha256": "58e5de5c9cf7061eb4f39240dfcadc2e2e4a0cbf124f9c268f7e878bbf451dc1"
+        },
+        {
+          "path": "references/ci-flake-diagnosis.md",
+          "gitBlob": "9cdfb619728906d9dbe58f02f047811aeb1c2a5a",
+          "sha256": "9fb8d3a56e9e90331dd2155f5bc55a9bea7d000f7dd2b519a4e59524a97f2b44"
+        }
+      ]
+    },
+    {
+      "id": "dsh-client-ui-ux",
+      "sourcePath": ".agents/skills/dsh-client-ui-ux",
+      "files": [
+        {
+          "path": "SKILL.md",
+          "gitBlob": "de63792f72c40b3a7e6c601992525c216d4aef45",
+          "sha256": "2b00d1e4d079a45beda500fbfff9d7f1e2f8f0ea0e10b0f6ad8a9d660a7036ff"
+        }
+      ]
+    },
+    {
+      "id": "dsh-code-review",
+      "sourcePath": ".agents/skills/dsh-code-review",
+      "files": [
+        {
+          "path": "SKILL.md",
+          "gitBlob": "bc145e212a41e92acdf1aa56ebce621d28f929ef",
+          "sha256": "8a91213a7d97503a6c8431276320c681f17c02374ecc9497c7a30d5e071c85b6"
+        }
+      ]
+    },
+    {
+      "id": "dsh-doc",
+      "sourcePath": ".agents/skills/dsh-doc",
+      "files": [
+        {
+          "path": "SKILL.md",
+          "gitBlob": "83eee5d526ef6f315fe67fa0f39b7780fe730484",
+          "sha256": "5704dcf1d81dcda381da07f25c3a117aa0ae85ddb8678b33ea615d3255088ffc"
+        },
+        {
+          "path": "references/metadata-links-i18n.md",
+          "gitBlob": "19ee5dde40165b38c976a722533334dbb1769595",
+          "sha256": "ef72c434228119c4ef9cc5c38103408526524107b97a167fb8c4a6ec646fab4e"
+        },
+        {
+          "path": "references/review.md",
+          "gitBlob": "b1014c04f9fcdde87fb8738a1910f16f0f7a84b9",
+          "sha256": "81f5bb876ad13bd2e550953d7c4ff9962d47b5f73d57219932e968029a89a216"
+        },
+        {
+          "path": "references/structure-hierarchy.md",
+          "gitBlob": "6586c815a5e1cb80e708b1e93dabf586f159af09",
+          "sha256": "869ae393be457951c89175ed9a6f02957d013b7b4b9b44785efbbcfead40ca8e"
+        },
+        {
+          "path": "references/style.md",
+          "gitBlob": "f05f06ef495ea0044ceac628c05a0c80e95d7887",
+          "sha256": "62600401bc7d771e17aaefd93748432153def0502cbc38b9176cdc15cc6167af"
+        },
+        {
+          "path": "references/website-sync.md",
+          "gitBlob": "0dc05e201f1e6a175255b9603a858ca35cf4c68d",
+          "sha256": "6ab2dc43aa43c964350a800304f53d51fcc6280ee882aac2a3223dff3e52bdfc"
+        },
+        {
+          "path": "templates/package-bundle.md",
+          "gitBlob": "59db5b0e305ac6dac5e8c59fc57afedd2df261d1",
+          "sha256": "9f6751700f4886b85b2b7334f4caa6621dbe815e969d32e94e9af046bc3f2f51"
+        },
+        {
+          "path": "templates/package-group.md",
+          "gitBlob": "2e1fe14139bd60f912f6be9aa63d0c7e53b0bcfb",
+          "sha256": "53cb8a73b3d465e8cc318e530bcbd505f373c64b9f4bdb25d2253d2aab5d0e9a"
+        },
+        {
+          "path": "templates/package-library.md",
+          "gitBlob": "f576634f9c503c5b7263bb585a16e1a80bb7cdda",
+          "sha256": "e65883a53950806ec5322b06ebf6dedc43f0c9377f7145e9cdc21e5a60db3993"
+        },
+        {
+          "path": "templates/package-reference.md",
+          "gitBlob": "499966301cd8d7251070a19e3df28af45f34d907",
+          "sha256": "b9e75748bd32b40960b51df2549afbe5ed4fb7454f235b134505e9b40d70f103"
+        },
+        {
+          "path": "templates/persistence-change.md",
+          "gitBlob": "4d5e72025494a3d069d359d5eb057d942f4444b1",
+          "sha256": "984451269be8f0d52ba0f533a5cb6b3c5df81296566cd4153c6b397ee3ef024d"
+        },
+        {
+          "path": "templates/persistence-format.md",
+          "gitBlob": "c411e14f7c85474a3dced5aff762f5311fbc8a30",
+          "sha256": "8e2cfd248807a49feeb56cb50645812f57a0ac4c0bb8b2fdae63ab5d09fbd27d"
+        },
+        {
+          "path": "templates/persistence-release.md",
+          "gitBlob": "08b85503db355364cdae648b52d90bc1cef7a15d",
+          "sha256": "641b2c8a78da2d880bcf6ca63773ecb95bd7239e4863cd271be79e6b8d1c0160"
+        }
+      ]
+    },
+    {
+      "id": "dsh-find-simplifications",
+      "sourcePath": ".agents/skills/dsh-find-simplifications",
+      "files": [
+        {
+          "path": "SKILL.md",
+          "gitBlob": "53444db411e0bb2735922ceefd6a17c76d89b912",
+          "sha256": "3cb353d38e08dc221bf90973af0683870d7d1a7e55c49c2726e3bfc6fff0d699"
+        },
+        {
+          "path": "references/historical-patterns.md",
+          "gitBlob": "f5f91342e4e1c48002d7975f71e71d755badd853",
+          "sha256": "9a6b674d1eeadb691481ea09838b211b8e94c94e5a8cd928726246b1c097b2b5"
+        }
+      ]
+    },
+    {
+      "id": "dsh-pre-push-checks",
+      "sourcePath": ".agents/skills/dsh-pre-push-checks",
+      "files": [
+        {
+          "path": "SKILL.md",
+          "gitBlob": "6567dde5dc6df2d9d292fda3f6b8daac8b7dcd9a",
+          "sha256": "7091f3061de122d287e323150073984e71116514f9b69eab800007599b6b336d"
+        }
+      ]
+    },
+    {
+      "id": "dsh-prose-standard",
+      "sourcePath": ".agents/skills/dsh-prose-standard",
+      "files": [
+        {
+          "path": "SKILL.md",
+          "gitBlob": "bb8347823b99fb8c871c697032b2bf33d1bcea43",
+          "sha256": "df56be84f9ee917a34055c9e229d06c409bce478de7bb0deb233240c1887f2eb"
+        },
+        {
+          "path": "references/examples.md",
+          "gitBlob": "85d2b33db1bee5366dde43ecacad87791141be76",
+          "sha256": "ea37f63a96458206edc436ee71aa1a89b5219347f74556aa413ba1dfd1246572"
+        }
+      ]
+    },
+    {
+      "id": "dsh-speed-up-perf",
+      "sourcePath": ".agents/skills/dsh-speed-up-perf",
+      "files": [
+        {
+          "path": "SKILL.md",
+          "gitBlob": "fbd5d262e17428f6bcc0b286e433b9250a86a600",
+          "sha256": "f71345f9e7b398b5e31a5fbd842075ad613788660697bdcd7738eb9e4b9cbd56"
+        }
+      ]
+    },
+    {
+      "id": "dsh-trim-cot-leakage",
+      "sourcePath": ".agents/skills/dsh-trim-cot-leakage",
+      "files": [
+        {
+          "path": "SKILL.md",
+          "gitBlob": "cd26b03891674ebf9f95babaa155b5da423f0a13",
+          "sha256": "13034b0f3950cc5c71a4a280021e94c3c6558722e519d02c3c2adf7f5456d718"
+        },
+        {
+          "path": "references/examples.md",
+          "gitBlob": "1d67019c66f80dccea3c91238ccdcf24ebfc3426",
+          "sha256": "893ad4a0680ecd18d515ba8b4bc1487df783e4eb49a82316e1b065a5c8c28a90"
+        },
+        {
+          "path": "references/recall-batteries.md",
+          "gitBlob": "4802413c4d5148a11582047b6c317eba977fed95",
+          "sha256": "449529dfba146c46b533b14855b2b0ca354f97e99de17cad979bd0106284d497"
+        }
+      ]
+    }
+  ]
+}
